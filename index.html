@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+
+.container{
+    padding:40px;
+    max-width:600px;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+p{
+    font-size:1.2rem;
+    margin-bottom:25px;
+    line-height:1.5;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:white;
+    color:#0077ff;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#f0f0f0;
+    transform:scale(1.05);
+}
+
+/* Responsive */
+@media (max-width:600px){
+    h1{
+        font-size:2rem;
+    }
+
+    p{
+        font-size:1rem;
+    }
+
+    .container{
+        padding:20px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome 👋</h1>
+    <p>
+        Welcome to our website! We're happy to have you here.  
+        Explore and enjoy the experience.
+    </p>
+    <a href="#" class="btn">Get Started</a>
+</div>
+
+</body>
+</html>
